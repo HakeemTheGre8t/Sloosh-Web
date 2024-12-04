@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slooosh! Slush Bar</title>
+    <style>
+        * {box-sizing: border-box;}
+        
+        body { 
+          margin: 0;
+          font-family: Roboto, sans-serif;
+        }
+        
+        .header {
+          overflow: hidden;
+          background-color: #f1f1f1;
+          padding: 20px 10px;
+        }
+        
+        .header a {
+          float: left;
+          color: black;
+          text-align: center;
+          padding: 12px;
+          text-decoration: none;
+          font-size: 18px; 
+          line-height: 25px;
+          border-radius: 4px;
+        }
+        
+        .header a.logo {
+          font-size: 25px;
+          font-weight: bold;
+        }
+        
+        .header a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .header a.active {
+          background-color: fffef9;
+          color: white;
+        }
+        
+        .header-right {
+          float: right;
+        }
+        
+        @media screen and (max-width: 500px) {
+          .header a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+          
+          .header-right {
+            float: none;
+          }
+        }
+        </style>
+</head>
+<body>
+
+    <!--Header Section -->
+    <div class="header">
+        <a href="Brand Assets/Hero Background.jpg" class="logo">Slooosh!</a>
+        <div class="header-right">
+          <a class="active" href="#home">Home</a>
+          <a class = "#menu">Menu</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href = "#testimonials">Testimonials</a>
+        </div>
+      </div>
+
+<!-- Hero Section -->
+    <section class = "hero" id = "home">
+        <div class = "hero-content">
+            <h1>The Ultimate Slush Experience</h1>
+            <a href = "menu" class="cta-btn">Try Slooosh Now!</a>
+        </div>
+    </section>
+
+<!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>At Slooosh!, we create the most vibrant, Instagram worthy slush drinks in London. With our retro music vibes and colourful drinks, we offer a fun experience that's perfect for social media. Whether you're a party-goer or a late-night snacker, Slooosh! is your go-to slush bar!</p>
+    </section>
+
+<!-- Services Section -->
+    <section class="services" id="menu">
+        <h2>Our Services</h2>
+        <div class="services-cards">
+            <div class="card">
+                <h3>Customised Slush Drinks</h3>
+                <p>Mix and match flavours to create your perfect slush drink.</p>
+            </div>
+            <div class="card">
+                <h3>Live DJ Music</h3>
+                <p>Enjoy lively music sets from rock to Hip Hop while you sip.</p>
+            </div>
+            <div class="card">
+                <h3>Social Media Fun</h3>
+                <p>Strike a pose and share your colourful drink on Instagram!</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <blockquote>
+            "Slooosh! is the best spot for late-night treat. The slush drinks are amazing, and the music is always on point!"
+        </blockquote>
+        <blockquote>
+            "Love the vibe at Slooosh! Super trendy, and the drinks are perfect for my Instagram feed."
+        </blockquote>
+    </section>
+
+<!--Footer Section -->
+    <footer id="contact">
+        <div class="contact-info">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+</body>
+</html>
