@@ -1,2 +1,3 @@
 # Sloosh-Web
- Sloosh is a slush bar brand concept I created to imagine something special in london that provides a trendy slush shop for young adults alike.
+ This project is a responsive HTML landing page for Sloosh! Slush Bar, a vibrant and trendsetting mobile slush drink bar catering to young adults and teenagers in London, UK. The landing page is designed to showcase the brands unique appeal, combining retro aestihtics, nostalgic music etc.
+
